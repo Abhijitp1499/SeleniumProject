@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-17T17:27:03 IST" name="Default suite" finished-at="2024-06-17T17:27:03 IST" duration-ms="38">
+    <groups>
+    </groups>
+    <test started-at="2024-06-17T17:27:03 IST" name="Default test" finished-at="2024-06-17T17:27:03 IST" duration-ms="38">
+      <class name="OOPs2">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:OOPs2@3c19aaa5]" started-at="2024-06-17T17:27:03 IST" name="beforeMethod" finished-at="2024-06-17T17:27:03 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testRun()[pri:0, instance:OOPs2@3c19aaa5]" started-at="2024-06-17T17:27:03 IST" name="testRun" finished-at="2024-06-17T17:27:03 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRun -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:OOPs2@3c19aaa5]" started-at="2024-06-17T17:27:03 IST" name="AfterMethod" finished-at="2024-06-17T17:27:03 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+      </class> <!-- OOPs2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,11 @@
+import java.lang.reflect.Array;
+
+public class StringArray {
+
+	public static void main(String[] args) {
+		
+		Array<String> s = {"Abhijit","Panigrahi"};
+
+	}
+
+}

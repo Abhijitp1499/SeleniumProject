@@ -1,0 +1,25 @@
+
+public class printNreverseString {
+
+	public static void main(String[] args) {
+	
+		String Name = "Abhijit";
+		
+		System.out.println("Print String");
+		for (int i=0;i<Name.length();i++)
+		{
+
+			System.out.println(Name.charAt(i));
+		}
+		
+		System.out.println("Print String");
+		for (int j=Name.length()-1;j>=0;j--)
+		{
+		
+			System.out.println(Name.charAt(j));
+		}
+		
+
+	}
+
+}

@@ -1,0 +1,6 @@
+package cucumberOptions;
+
+@CucumberOptions(feature="src/test/java/features",glue="stepDefinition")
+public class TestNGTestRunner {
+
+}

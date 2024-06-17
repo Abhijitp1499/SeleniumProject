@@ -1,0 +1,14 @@
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+
+public class StringArray {
+
+	public static void main(String[] args) {
+		
+		String [] str = {"Abhijit","Panigrahi"};
+		
+		System.out.println(str[0]);
+		
+	}
+
+}

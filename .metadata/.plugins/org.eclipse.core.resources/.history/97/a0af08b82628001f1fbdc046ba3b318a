@@ -1,0 +1,21 @@
+package SelenimFramework1.tests;
+
+import java.io.IOException;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import TestComponents.BaseTest;
+
+public class StandAloneTest_ErrorValidations extends BaseTest {
+
+	@Test
+	public void submitOrder() throws IOException, InterruptedException {
+		
+
+		landingpage.loginApplication("wrongemailID@gmail.com", "wrongpassword");
+		landingpage.getErrorMessage();
+		Assert.assertEquals("Incorrect email or password.", landingpage.getErrorMessage());
+	}
+
+}

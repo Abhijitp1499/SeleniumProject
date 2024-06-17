@@ -1,0 +1,65 @@
+﻿1. What is the Design Pattern you have used in writing the tests in the Framework?
+
+Answer. PageObjectModel - Java action methods , PageFactory - For selenium locators 
+PageFactory.initElements in the constructor and used @FindBy - List of weblements - return type is list
+Driving objects from action methods itself, instead of creating a new one in the tescase - when we sure that its going to take to next page
+return type of action method is the object of the new class
+
+2. How are reusable utilities handled within the framework? 
+
+Answer. For all selenium related methods AbstractComponent - ExplicitWait , Go to a common header
+Inheriting using extends so that we can access all the methods
+BaseTest - Opening the browser , launching the website , closing the browser
+
+3. Where did you use Inheritance OOPS Concept in your framework?
+
+Answer. We dont want to creat multiple objects of each class to we are inheriting them using extends from the parent classes
+@Before and @After methods declared in Basetest can be commonly used across all classes by inheriting 
+
+
+4. How did you drive the data from external files in the
+framework?
+
+Answer. 
+Used testNG dataprovider attribute - dataprovider method returning list of hashmaps
+JSON files to parse the data
+Jackson DataBind utilities
+ObjectMappper class used to convert JSON strings to list of hashmaps
+
+
+5. Did you use Interfaces in the framework? If so, what is the scope of it?
+Answer. ITestListener - onTestStart,OnTestSuccess,OnTestFailure,OnTestSkipped 
+WebDriver Interface - ChromeDriver class,FireFoxDriver class,EdgeDriver class
+
+6. How are you achieving Encapsulation in the framework?
+Answer. Webelements should be internally  used by action methods , no other class should use it
+we can mark as private - only class method those private 
+
+7. Does your Framework Support Parallel Runs? How are you writing Thread safe code?
+Answer. testng xml file 
+<suite parallel ="test" name="Suite" >
+<test thread-count=5>
+
+while generating report - overriding issue - so we threadlocal class - unqiue thread id - store them using set method - use them using get method
+avoided concurrency issue
+
+
+8. Do you have static keywords in the framework? If so, its usage?
+driver creates it own instance for each thread
+
+
+
+9. How are you sending Global Properties to your test at run time?
+
+
+10. What is the mechanism you use to run only selected set of tests inside the framework?
+
+
+
+11. How are you handling Flaky tests in the framework?
+
+﻿
+12. Does your Framework take Screenshot on test failures? How did you implement it?
+
+
+13. Explain Framework Architecture

@@ -1,0 +1,11 @@
+package SelenimFramework1.tests;
+
+import org.testng.ITestNGListener;
+import org.testng.internal.annotations.IListeners;
+
+public class Listener implements IListeners {
+
+
+
+
+}

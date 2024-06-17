@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="17" passed="17" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-17T15:58:12 IST" name="Loan Department" finished-at="2024-06-17T15:58:12 IST" duration-ms="46">
+    <groups>
+    </groups>
+    <test started-at="2024-06-17T15:58:12 IST" name="Personal Loan" finished-at="2024-06-17T15:58:12 IST" duration-ms="46">
+      <class name="test.Day1">
+        <test-method signature="TestNGDemo1()[pri:0, instance:test.Day1@7193666c]" started-at="2024-06-17T15:58:12 IST" name="TestNGDemo1" finished-at="2024-06-17T15:58:12 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestNGDemo1 -->
+        <test-method is-config="true" signature="TestNGDemo2()[pri:0, instance:test.Day1@7193666c]" started-at="2024-06-17T15:58:12 IST" name="TestNGDemo2" finished-at="2024-06-17T15:58:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestNGDemo2 -->
+      </class> <!-- test.Day1 -->
+      <class name="test.Day2">
+        <test-method is-config="true" signature="TestNGDemo4()[pri:0, instance:test.Day2@5f058f00]" started-at="2024-06-17T15:58:12 IST" name="TestNGDemo4" finished-at="2024-06-17T15:58:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestNGDemo4 -->
+        <test-method signature="TestNGDemo3()[pri:0, instance:test.Day2@5f058f00]" started-at="2024-06-17T15:58:12 IST" name="TestNGDemo3" finished-at="2024-06-17T15:58:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestNGDemo3 -->
+      </class> <!-- test.Day2 -->
+      <class name="test.Day3">
+        <test-method is-config="true" signature="BeforeSuite1()[pri:0, instance:test.Day3@59fd97a8]" started-at="2024-06-17T15:58:12 IST" name="BeforeSuite1" finished-at="2024-06-17T15:58:12 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuite1 -->
+        <test-method signature="APILoginCarLoan()[pri:0, instance:test.Day3@59fd97a8]" started-at="2024-06-17T15:58:12 IST" name="APILoginCarLoan" finished-at="2024-06-17T15:58:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginCarLoan -->
+        <test-method signature="MobileLoginCarLoan()[pri:0, instance:test.Day3@59fd97a8]" started-at="2024-06-17T15:58:12 IST" name="MobileLoginCarLoan" finished-at="2024-06-17T15:58:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginCarLoan -->
+        <test-method signature="Regular1()[pri:0, instance:test.Day3@59fd97a8]" started-at="2024-06-17T15:58:12 IST" name="Regular1" finished-at="2024-06-17T15:58:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Regular1 -->
+        <test-method signature="Regular2()[pri:0, instance:test.Day3@59fd97a8]" started-at="2024-06-17T15:58:12 IST" name="Regular2" finished-at="2024-06-17T15:58:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Regular2 -->
+        <test-method signature="Regular3()[pri:0, instance:test.Day3@59fd97a8]" started-at="2024-06-17T15:58:12 IST" name="Regular3" finished-at="2024-06-17T15:58:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Regular3 -->
+        <test-method signature="WebLoginCarLoan()[pri:0, instance:test.Day3@59fd97a8]" started-at="2024-06-17T15:58:12 IST" name="WebLoginCarLoan" finished-at="2024-06-17T15:58:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginCarLoan -->
+        <test-method is-config="true" signature="AfterSuite1()[pri:0, instance:test.Day3@59fd97a8]" started-at="2024-06-17T15:58:12 IST" name="AfterSuite1" finished-at="2024-06-17T15:58:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterSuite1 -->
+      </class> <!-- test.Day3 -->
+      <class name="test.Day4">
+        <test-method signature="APILoginHomeLoan()[pri:0, instance:test.Day4@f5ac9e4]" started-at="2024-06-17T15:58:12 IST" name="APILoginHomeLoan" finished-at="2024-06-17T15:58:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILoginHomeLoan -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:test.Day4@f5ac9e4]" started-at="2024-06-17T15:58:12 IST" name="AfterMethod" finished-at="2024-06-17T15:58:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method signature="APILogoutHomeLoan()[pri:0, instance:test.Day4@f5ac9e4]" started-at="2024-06-17T15:58:12 IST" name="APILogoutHomeLoan" finished-at="2024-06-17T15:58:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APILogoutHomeLoan -->
+        <test-method signature="MobileLoginHomeLoan()[pri:0, instance:test.Day4@f5ac9e4]" started-at="2024-06-17T15:58:12 IST" name="MobileLoginHomeLoan" finished-at="2024-06-17T15:58:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileLoginHomeLoan -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:test.Day4@f5ac9e4]" started-at="2024-06-17T15:58:12 IST" name="AfterMethod" finished-at="2024-06-17T15:58:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:test.Day4@f5ac9e4]" started-at="2024-06-17T15:58:12 IST" name="AfterMethod" finished-at="2024-06-17T15:58:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+        <test-method signature="WebLoginHomeLoan()[pri:0, instance:test.Day4@f5ac9e4]" started-at="2024-06-17T15:58:12 IST" name="WebLoginHomeLoan" finished-at="2024-06-17T15:58:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLoginHomeLoan -->
+        <test-method is-config="true" signature="AfterMethod()[pri:0, instance:test.Day4@f5ac9e4]" started-at="2024-06-17T15:58:12 IST" name="AfterMethod" finished-at="2024-06-17T15:58:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethod -->
+      </class> <!-- test.Day4 -->
+      <class name="test.Day5">
+        <test-method signature="FirstMethod()[pri:0, instance:test.Day5@123ef382]" started-at="2024-06-17T15:58:12 IST" name="FirstMethod" finished-at="2024-06-17T15:58:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirstMethod -->
+        <test-method is-config="true" signature="ThirdMethod()[pri:0, instance:test.Day5@123ef382]" started-at="2024-06-17T15:58:12 IST" name="ThirdMethod" finished-at="2024-06-17T15:58:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ThirdMethod -->
+        <test-method is-config="true" signature="ThirdMethod()[pri:0, instance:test.Day5@123ef382]" started-at="2024-06-17T15:58:12 IST" name="ThirdMethod" finished-at="2024-06-17T15:58:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ThirdMethod -->
+        <test-method signature="SecondMethod()[pri:0, instance:test.Day5@123ef382]" started-at="2024-06-17T15:58:12 IST" name="SecondMethod" finished-at="2024-06-17T15:58:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondMethod -->
+      </class> <!-- test.Day5 -->
+      <class name="test.Day6">
+        <test-method is-config="true" signature="FifthMethod()[pri:0, instance:test.Day6@dbf57b3]" started-at="2024-06-17T15:58:12 IST" name="FifthMethod" finished-at="2024-06-17T15:58:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FifthMethod -->
+        <test-method signature="SecondMethod()[pri:0, instance:test.Day6@dbf57b3]" started-at="2024-06-17T15:58:12 IST" name="SecondMethod" finished-at="2024-06-17T15:58:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondMethod -->
+        <test-method signature="FourthMethod()[pri:0, instance:test.Day6@dbf57b3]" started-at="2024-06-17T15:58:12 IST" name="FourthMethod" finished-at="2024-06-17T15:58:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FourthMethod -->
+        <test-method signature="ThirdMethod2()[pri:0, instance:test.Day6@dbf57b3]" started-at="2024-06-17T15:58:12 IST" name="ThirdMethod2" finished-at="2024-06-17T15:58:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ThirdMethod2 -->
+        <test-method is-config="true" signature="FirstMethod()[pri:0, instance:test.Day6@dbf57b3]" started-at="2024-06-17T15:58:12 IST" name="FirstMethod" finished-at="2024-06-17T15:58:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirstMethod -->
+      </class> <!-- test.Day6 -->
+    </test> <!-- Personal Loan -->
+  </suite> <!-- Loan Department -->
+</testng-results>

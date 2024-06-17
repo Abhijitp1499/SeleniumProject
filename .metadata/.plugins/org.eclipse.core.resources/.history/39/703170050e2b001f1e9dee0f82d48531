@@ -1,0 +1,6 @@
+Feature: Search and Place the order for Products
+
+  Scenario: Search Experience for product seach in both home and offer page
+    Given User is on GreenCart Landing Page
+    When user searched with ShortName "Tom" and extract actual name of product
+    Then user searched for same "Tom" in offers page to check if product exist with the same name

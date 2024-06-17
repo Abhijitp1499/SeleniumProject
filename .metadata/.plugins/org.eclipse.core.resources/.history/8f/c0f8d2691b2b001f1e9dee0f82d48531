@@ -1,0 +1,19 @@
+LandingPageStepdefintion 
+OfferPageStepDefintion
+
+Cucumber dependency Injection - import Pico container dependency
+Create a class and declare the Variables/Objects that are going to be shared across various step Definition files
+Create a constructor in the step Definition classes and use this keyword to initialize the variable
+LandingPageStepdefintion 
+OfferPageStepDefintion
+
+Cucumber dependency Injection - import Pico container dependency
+Create a class and declare the Variables/Objects that are going to be shared across various step Definition files
+Create a constructor in the step Definition classes and use this keyword to initialize the variable
+
+
+classes losely coupled
+
+
+
+classes losely coupled

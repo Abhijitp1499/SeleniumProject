@@ -1,0 +1,15 @@
+package stepDefinitions;
+
+public class hooks {
+
+	public void netBankingSetup()
+	{
+		System.out.println("Setup Entries");
+	}
+	
+	public void netBankingSetup()
+	{
+		System.out.println("Setup Entries");
+	}
+	
+}

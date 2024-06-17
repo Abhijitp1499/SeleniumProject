@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Test.CheckoutPage&apos; to &apos;F_4_CheckoutPage&apos;&#x0D;&#x0A;- Original project: &apos;Selenium4_FrameWorkDesign_MAIN&apos;&#x0D;&#x0A;- Original element: &apos;Test.CheckoutPage&apos;&#x0D;&#x0A;- Renamed element: &apos;Test.F_4_CheckoutPage&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;CheckoutPage&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;Test{CheckoutPage.java[CheckoutPage" matchStrategy="1" name="F_4_CheckoutPage" qualified="false" references="true" similarDeclarations="false" stamp="1717931465557" textual="false" version="1.0"/>
+</session>

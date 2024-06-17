@@ -1,0 +1,19 @@
+
+[
+  {
+    "email" : "nickjoker123@gmail.com",
+     "password" : "password1",
+    "product" : "productName1"
+  },
+  {
+    "email" : "emailID2@gmail.com",
+     "password" : "password2",
+    "product" : "productName2"
+  },
+  {
+    "email" : "emailID3@gmail.com",
+     "password" : "password3",
+    "product" : "productName3"
+  }
+]
+

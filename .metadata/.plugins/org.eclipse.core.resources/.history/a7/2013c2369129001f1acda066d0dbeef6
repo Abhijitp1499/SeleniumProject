@@ -1,0 +1,80 @@
+package SelenimFramework1.tests;
+
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.List;
+
+import org.openqa.selenium.WebElement;
+import org.testng.Assert;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+import Test.F_2_ProductCatalogue1;
+import Test.F_3_CartPage1;
+import Test.F_4_CheckoutPage1;
+import Test.F_5_ConfirmationPage1;
+import Test.F_6_OrderPage;
+import TestComponents.BaseTest;
+
+public class SubmitOrderTest extends BaseTest {
+	// String productName = "ZARA COAT 3";
+
+	@Test(dataProvider = "getData",groups = {"Purchase"})
+	public void submitOrder(HashMap<String, String> input) throws IOException, InterruptedException {
+
+		F_2_ProductCatalogue1 productCatalogue = landingpage.loginApplication(input.get("Email"),
+				input.get("password"));
+
+		List<WebElement> products = productCatalogue.getProductList();
+
+		productCatalogue.addProductToCart(input.get("productName"));
+		Thread.sleep(1000);
+		F_3_CartPage1 cartPage = productCatalogue.goToCartPage();
+
+		Boolean match = cartPage.VerfifyProductDisplay(input.get("productName"));
+		Assert.assertTrue(match);
+		F_4_CheckoutPage1 checkoutpage = cartPage.goToCheckout();
+		checkoutpage.SelectCountry("india");
+		F_5_ConfirmationPage1 confirmationPage = checkoutpage.submitOrder();
+
+		String confirmMessage = confirmationPage.GetConfirmationMessage();
+		Assert.assertTrue(confirmMessage.equalsIgnoreCase("THANKYOU FOR THE ORDER."));
+
+	}
+
+	// To verify ZARA COAT 3 is displaying in orders page using dependency testNG
+
+	@Test(dependsOnMethods = { "submitOrder" })
+	public void OrderHistoryTest() {
+		F_2_ProductCatalogue1 productCatalogue = landingpage.loginApplication("nickjoker123@gmail.com", "Nickjoker123");
+		F_6_OrderPage OrderPage = productCatalogue.goToOrdersPage();
+		// Assert.assertTrue(OrderPage.VerfifyOrderDisplay(productName));
+	}
+
+	@DataProvider
+	public Object[][] getData() {
+
+		
+		List<HashMap<String,String>> data = getJsonDataToMap(System.getProperty("user.dir")+"src\\main\\java\\data\\PurchaseOrder.json");
+		
+		return new Object[][] { {data.get(0)},{data.get(1)}} };
+	}
+
+	// return new Object[][] {{"nickjoker123@gmail.com","Nickjoker123","ZARA COAT
+	// 3"},{"rahul70@gmail.com","@Rahul2222","ZARA COAT 3"}};
+	// public void submitOrder(String Email,String password, String productName)
+	
+	
+	/*
+	 * @DataProvider public Object[][] getData() { HashMap<String, String> map = new
+	 * HashMap<String, String>(); map.put("Email", "nickjoker123@gmail.com");
+	 * map.put("password", "Nickjoker123"); map.put("productName", "ZARA COAT 3");
+	 * 
+	 * HashMap<String, String> map1 = new HashMap<String, String>();
+	 * map1.put("Email", "nickjoker123@gmail.com"); map1.put("password",
+	 * "Nickjoker123"); map1.put("productName", "ZARA COAT 3");
+	 * 
+	 * return new Object[][] { {map}, {map1} };
+	 */
+
+}

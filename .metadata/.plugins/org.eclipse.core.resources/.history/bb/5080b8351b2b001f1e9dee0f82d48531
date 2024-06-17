@@ -1,0 +1,8 @@
+LandingPageStepdefintion 
+OfferPageStepDefintion
+
+Cucumber dependency Injection - import picocontainer dependency
+Create a class and delcare the Varibales/Objects that are going to be shared across various stepDefinition files
+
+
+classes losely coupled

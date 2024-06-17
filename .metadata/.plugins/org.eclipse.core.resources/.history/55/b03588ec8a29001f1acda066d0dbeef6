@@ -1,0 +1,20 @@
+package data;
+
+import java.io.File;
+
+import org.apache.commons.io.FileUtils;
+
+public class DataReader {
+	
+	public  getJsonDataToMap()
+	{
+		// Read JSON to string
+	String jsonContent	=FileUtils.readFileToString(new File(System.getProperty("user.dir")+"src\\main\\java\\data\\PurchaseOrder.json"));
+	
+	//String to HashMap Jackson DataBind
+	
+	
+	
+	}
+
+}

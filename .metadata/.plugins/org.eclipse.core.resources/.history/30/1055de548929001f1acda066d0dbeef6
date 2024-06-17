@@ -1,0 +1,18 @@
+[
+  {
+    "email" : "nickjoker123@gmail.com",
+     "password" : "Nickjoker123",
+    "product" : "ZARA COAT 3"
+  },
+  {
+    "email" : "rahul69@gmail.com",
+     "password" : "password2",
+    "product" : "productName2"
+  },
+  {
+    "email" : "emailID3@gmail.com",
+     "password" : "password3",
+    "product" : "productName3"
+  }
+]
+

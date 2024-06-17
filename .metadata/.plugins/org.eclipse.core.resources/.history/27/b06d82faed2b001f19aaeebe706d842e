@@ -1,0 +1,15 @@
+
+public class printNreverseString {
+
+	public static void main(String[] args) {
+	
+		String Name = "Abhijit";
+		
+		for (int i=0;i<Name.length();)
+		
+		
+		
+
+	}
+
+}

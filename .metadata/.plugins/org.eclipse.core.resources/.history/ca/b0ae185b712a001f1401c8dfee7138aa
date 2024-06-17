@@ -1,0 +1,33 @@
+package cucumberOptions;
+
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import io.cucumber.testng.AbstractTestNGCucumberTests;
+import io.cucumber.testng.CucumberOptions;
+
+@CucumberOptions(features = "src/test/java/features", glue = "stepDefinitions", monochrome = true)
+
+public class TestNGRunner extends AbstractTestNGCucumberTests {
+
+	@Given("User is on NetBanking landing page")
+	public void user_is_on_net_banking_landing_page() {
+		System.out.println("User landed on netbanking page");
+	}
+
+	@When("User login into application")
+	public void user_login_into_application() {
+		System.out.println("User logged into application");
+	}
+
+	@Then("Home Page is displayed")
+	public void home_page_is_displayed() {
+		System.out.println("Home page is displayed");
+	}
+
+	@Then("Cards are displayed")
+	public void cards_are_displayed() {
+		System.out.println("");
+	}
+
+}

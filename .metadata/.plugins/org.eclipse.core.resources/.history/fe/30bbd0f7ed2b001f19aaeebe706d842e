@@ -1,0 +1,13 @@
+
+public class printNreverseString {
+
+	public static void main(String[] args) {
+	
+		String Name = "Abhijit";
+		
+		
+		
+
+	}
+
+}

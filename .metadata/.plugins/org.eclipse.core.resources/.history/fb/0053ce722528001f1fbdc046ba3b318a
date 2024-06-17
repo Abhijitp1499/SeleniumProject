@@ -1,0 +1,34 @@
+package SelenimFramework1.tests;
+
+import java.io.IOException;
+import java.time.Duration;
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import Test.F_1_LandingPage1;
+import Test.F_2_ProductCatalogue1;
+import Test.F_3_CartPage1;
+import Test.F_4_CheckoutPage1;
+import Test.F_5_ConfirmationPage1;
+import TestComponents.BaseTest;
+
+public class StandAloneTest_ErrorValidations extends BaseTest {
+
+	@Test
+	public void submitOrder() throws IOException, InterruptedException {
+		String productName = "ZARA COAT 3";
+
+		F_2_ProductCatalogue1 productCatalogue = landingpage.loginApplication("wrongemailID@gmail.com", "wrongpassword");
+		landingpage.getErrorMessage();
+		
+	}
+
+}

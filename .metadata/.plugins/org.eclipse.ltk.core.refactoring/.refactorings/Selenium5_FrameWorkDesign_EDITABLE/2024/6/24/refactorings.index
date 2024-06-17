@@ -1,0 +1,29 @@
+1717930027561	Rename type 'CheckoutPage'
+1717931394886	Rename type 'ConfirmationPage'
+1717931486830	Rename type 'F_1_LandingPage'
+1717931495193	Rename type 'F_2_ProductCatalogue'
+1717931503875	Rename type 'F_3_CartPage'
+1717931509990	Rename type 'F_4_CheckoutPage'
+1717931519640	Rename type 'F_5_ConfirmationPage'
+1717933025496	Rename package 'SelenimFramework1.pageobjects'
+1717936359742	Copy compilation unit
+1717936366759	Rename type 'StandAloneTest_ErroValidations'
+1718133923254	Delete element
+1718251053935	Delete element
+1718252343786	Rename type 'StandAloneTest_Editable'
+1718252365383	Rename type 'StandAloneTest_ErrorValidations'
+1718252394837	Rename type 'StandAloneTest_DO_NOT_CHANGE'
+1718253931628	Delete element
+1718254023514	Delete element
+1718254095874	Delete element
+1718254119953	Copy compilation unit
+1718256616153	Copy file
+1718279834466	Copy file
+1718285680240	Delete element
+1718289225304	Move file
+1718296903107	Copy compilation unit
+1718297197641	Copy compilation unit
+1718297223071	Move compilation unit
+1718302969155	Rename resource 'testng.xml'
+1718304084129	Rename resource 'ErrorValidation.xml'
+1718304108335	Rename resource 'testng2.xml'

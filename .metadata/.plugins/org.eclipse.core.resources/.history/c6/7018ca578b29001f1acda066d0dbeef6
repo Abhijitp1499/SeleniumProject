@@ -1,0 +1,24 @@
+package data;
+
+import java.io.File;
+
+import org.apache.commons.io.FileUtils;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+public class DataReader {
+	
+	public  getJsonDataToMap()
+	{
+		// Read JSON to string
+	String jsonContent	=FileUtils.readFileToString(new File(System.getProperty("user.dir")+"src\\main\\java\\data\\PurchaseOrder.json"));
+	
+	//String to HashMap Jackson DataBind
+	
+	ObjectMapper mapper = new ObjectMapper();
+	List<HasMap<String,String>> data = mapper.readValue(jsonContent, new TypeReference<List<HashMap<String,String>>>)
+	
+	
+	}
+
+}

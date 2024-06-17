@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Selenium4_FrameWorkDesign2&apos; to &apos;Selenium5_FrameWorkDesign_EDITABLE&apos;" description="Rename resource &apos;Selenium4_FrameWorkDesign2&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/Selenium4_FrameWorkDesign2" name="Selenium5_FrameWorkDesign_EDITABLE" stamp="1717918567708" updateReferences="true"/>
+</session>
